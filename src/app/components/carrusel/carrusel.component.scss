@@ -1,0 +1,24 @@
+.carousel {
+    margin-bottom: 2rem;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.carousel-item {
+    height: 32rem;
+}
+
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    height: 32rem;
+}
+
+@media only screen and (max-width: 974px) {
+
+}

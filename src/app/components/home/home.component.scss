@@ -1,0 +1,62 @@
+.caracteristicas-inv {
+    padding:  0;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.caracteristicas-inv.bg-dark-blue .card p {
+    margin: 5px 0 0;
+    background-color: var(--principal)
+}
+
+
+.caracteristicas-inv h2 {
+    background-color: white;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: var(--principal);
+}
+
+.caracteristicas-inv .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+    text-align: left;
+    padding: 30px;
+    color: white;
+    border: none;
+    background-color: var(--principal);
+    position: relative;
+    min-height: 130px;
+}
+
+.caracteristicas-inv .card h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.caracteristicas-inv .card p {
+    color: white;
+}
+
+.caracteristicas-inv .sinp {
+    padding: 0;
+}
+
+@media only screen and (min-width: 640px) {
+    
+    .caracteristicas h2,
+    .caracteristicas-inv h2 {
+        font-size: 22px;
+    }
+
+    .caracteristicas-inv .card {
+        min-height: 100%;
+    }
+
+}

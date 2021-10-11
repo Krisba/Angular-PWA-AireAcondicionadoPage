@@ -1,0 +1,26 @@
+.navbar { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: var(--principal);
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+
+    margin-right: 1.5rem;
+    justify-content: flex-end;
+    
+    a {
+        color: white;
+    }
+
+}
