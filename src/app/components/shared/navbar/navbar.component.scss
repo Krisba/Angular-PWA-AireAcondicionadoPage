@@ -5,6 +5,12 @@
     background-color: var(--principal);
 }
 
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+}
+
 .brand {
     display: flex;
     align-items: center;
@@ -23,4 +29,29 @@
         color: white;
     }
 
+}
+
+.contacto {
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 1em;
+    color: var(--principal) !important;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container-fluid {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .container-fluid {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
 }

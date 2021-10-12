@@ -5,6 +5,9 @@
 .carousel-caption {
     bottom: 3rem;
     z-index: 10;
+    h1 {
+        box-shadow: inset 100vw 0 0 rgba(0,0,0,0.50);
+    }
 }
 
 .carousel-item {
@@ -19,6 +22,3 @@
     height: 32rem;
 }
 
-@media only screen and (max-width: 974px) {
-
-}
