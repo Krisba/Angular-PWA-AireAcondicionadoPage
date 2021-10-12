@@ -1,4 +1,4 @@
-.caracteristicas {
+.seccion {
     padding:  0;
     margin-bottom: 2rem;
 }
@@ -14,15 +14,15 @@
     justify-content: center;
 }
 
-.caracteristicas.bg-dark-blue {
+.seccion.bg-dark-blue {
     background-color: var(--principal)
 }
 
-.caracteristicas.bg-dark-blue .card p {
+.seccion.bg-dark-blue .card p {
     margin: 5px 0 0;
 }
 
-.caracteristicas .card {
+.seccion .card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,18 +34,18 @@
     border: none;
     background-color: var(--principal);
     position: relative;
-    min-height: 130px;
 }
 
-.caracteristicas .card h3 {
+.seccion .card h3 {
     font-size: 20px;
 }
 
-.caracteristicas .card p {
+.seccion .card p {
     color: white;
+    font-style: italic;
 }
 
-.caracteristicas .sinp {
+.seccion .sinp {
     display: flex;
     justify-content: center;
     padding: 0;

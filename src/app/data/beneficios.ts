@@ -15,7 +15,7 @@ export const BENEFICIOS  = [
     {
         video: '../../assets/videos/precio.mp4',
         titulo: 'PRECIO',
-        descripcion: '¿Sabés cuánto cuesta un cerrajero o un plomero en la mitad de la noche?',
+        descripcion: 'El precio que se acuerda en el presupuesto es el precio a pagar. Sin gastos extra.',
     },
 
     {
@@ -33,7 +33,7 @@ export const BENEFICIOS  = [
     {
         video: '../../assets/videos/profesionales.mp4',
         titulo: 'PROFESIONALES',
-        descripcion: 'Tenemos mas de 1000 profesionales homologados en todo el territorio nacional.',
+        descripcion: 'Tenemos cientos de profesionales homologados en todo el territorio provincial.',
     },
 
 ];
