@@ -5,24 +5,24 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { CarruselComponent } from './components/carrusel/carrusel.component';
 import { TestimoniosComponent } from './components/testimonios/testimonios.component';
 import { CaracteristicasComponent } from './components/caracteristicas/caracteristicas.component';
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
 import { ServiciosComponent } from './components/servicios/servicios.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
     HomeComponent,
     CarruselComponent,
     TestimoniosComponent,
     CaracteristicasComponent,
     NosotrosComponent,
-    ServiciosComponent
+    ServiciosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

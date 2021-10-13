@@ -23,15 +23,19 @@
     width: 50%;
 }
 
+.articulo p {
+    line-height: 2rem;
+}
+
 .formulario {
-
+    
     width: 40%;
-
+    
     h1 {
         text-align: center;
         padding-bottom: 1rem;
     }
-
+    
 }
 
 form {
@@ -74,16 +78,16 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 @media only screen and (max-width: 974px) {
-
+    
     .container {
         flex-direction: column;
     }
-
+    
     .formulario {
         width: 100%;
         padding: 2rem;
     }
-
+    
 }
 
 
@@ -96,7 +100,7 @@ input[type=number]::-webkit-outer-spin-button {
     .bloqueArticulo {
         width: 100%;
     }
-
+    
     .formulario {
         width: 100%;
     }

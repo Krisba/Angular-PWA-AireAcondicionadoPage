@@ -1,3 +1,100 @@
+.navbar { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: var(--principal);
+    box-shadow: 0 10px 46px -23px rgba(0,0,0,1);
+    width: 100%;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    
+    margin-right: 1.5rem;
+    justify-content: flex-end;
+    
+    a {
+        color: white;
+    }
+    
+}
+
+.nav-link {  
+    position: relative;
+}
+
+.nav-link:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.nav-link:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+.nav-link.contacto {
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 1em;
+    color: var(--principal) !important;
+    font-weight: bold;
+}
+
+.nav-link.contacto:hover {
+    background-color: var(--principal);
+    color: white !important;
+    transition: all .3s ease-out;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    .container-fluid {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nav-link:after {    
+        background: none repeat scroll 0 0 transparent;
+        transition: none;
+        width: 0;
+    }
+    
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .container-fluid {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
 .separador {
     padding:  0;
 }

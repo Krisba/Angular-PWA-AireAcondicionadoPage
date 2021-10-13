@@ -12,4 +12,9 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  click(event, page: HTMLElement) {
+    event.preventDefault();
+    page.scrollIntoView();
+  }
+
 }
