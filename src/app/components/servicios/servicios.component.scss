@@ -1,35 +1,36 @@
 .servicios {
-    background-color: var(--principal);
+  background-color: var(--principal);
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 2rem;
-    color: white;
-    width: 1200px;
-    max-width: 100%;
-    padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2rem;
+  color: white;
+  width: 1200px;
+  max-width: 100%;
+  padding: 3rem;
 }
 
 .elemento {
-    display: flex;
-    padding: 1rem;
-    margin-bottom: 2rem;
-    border: 1px solid white
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid white;
+  transition: all .3s ease-out;
 }
 
-.elementoUltimo {
-    display: flex;
-    padding: 1rem;
-    border: 1px solid white
+.elemento:hover {
+  background-color: white;
+  color: var(--principal);
+  transition: all .3s ease-out;
 }
 
-@media only screen and (max-width: 770px) {
-
-    .elementoUltimo {
-        margin-bottom: 2rem;
-    }
-
+.bloqueTitulo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
 }

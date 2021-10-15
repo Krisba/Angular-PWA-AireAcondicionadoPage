@@ -1,58 +1,58 @@
 .caracteristicas {
-    padding:  0;
-    margin-bottom: 2rem;
+  padding:  0;
+  margin-bottom: 2rem;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    width: 1200px;
-    max-width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  max-width: 100%;
 }
 
 .caracteristicas.bg-dark-blue {
-    background-color: var(--principal)
+  background-color: var(--principal)
 }
 
 .caracteristicas.bg-dark-blue .card p {
-    margin: 5px 0 0;
+  margin: 5px 0 0;
 }
 
 .caracteristicas .card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0;
-    text-align: left;
-    padding: 30px;
-    color: white;
-    border: none;
-    background-color: var(--principal);
-    position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  text-align: left;
+  padding: 30px;
+  color: white;
+  border: none;
+  background-color: var(--principal);
+  position: relative;
 }
 
 .caracteristicas .card h3 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .caracteristicas .card p {
-    color: white;
+  color: white;
 }
 
 .caracteristicas .sinp {
-    padding: 0;
+  padding: 0;
 }
 
 @media only screen and (min-width: 640px) {
-    
-    .caracteristicas h2,
-    .caracteristicas h2 {
-        font-size: 22px;
-    }
-    
-    .caracteristicas .card {
-        min-height: 100%;
-    }
-    
+
+  .caracteristicas h2,
+  .caracteristicas h2 {
+    font-size: 22px;
+  }
+
+  .caracteristicas .card {
+    min-height: 100%;
+  }
+
 }

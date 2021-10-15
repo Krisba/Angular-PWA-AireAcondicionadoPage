@@ -38,11 +38,11 @@
                     
                     <h1 class="h2">Solicitá tu presupuesto</h1>
                     
-                    <form autocomplete="off">
-                        <input  name="nombre" class="input" type="text" required placeholder="Nombre">
-                        <input name="email" class="input" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required placeholder="Email">
-                        <input  name="telefono" class="input" type="number" required placeholder="Teléfono">
-                        <textarea name="mensaje" class="input" style="height: 150px; resize: none;" type="text" required placeholder="Mensaje"></textarea>
+                    <form autocomplete="off" (ngSubmit)="presupuestar(fContacto)" #fContacto="ngForm">
+                        <input [(ngModel)]="nombre" name="nombre" class="input" type="text" required placeholder="Nombre">
+                        <input [(ngModel)]="email" name="email" class="input" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required placeholder="Email">
+                        <input [(ngModel)]="telefono" name="telefono" class="input" type="number" required placeholder="Teléfono">
+                        <textarea [(ngModel)]="mensaje" name="mensaje" class="input" style="height: 150px; resize: none;" type="text" required placeholder="Mensaje"></textarea>
                         <button type="submit" class="enviar">SOLICITAR</button>
                     </form>
                     

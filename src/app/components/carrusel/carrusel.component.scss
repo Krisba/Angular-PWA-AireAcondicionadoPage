@@ -1,31 +1,31 @@
 .carousel {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .carousel-caption {
-    bottom: 3rem;
-    z-index: 10;
-    h1 {
-        box-shadow: inset 100vw 0 0 rgba(0,0,0,0.50);
-    }
+  bottom: 3rem;
+  z-index: 10;
+  h1 {
+    box-shadow: inset 100vw 0 0 rgba(0,0,0,0.50);
+  }
 }
 
 .carousel-item {
-    height: 32rem;
+  height: 32rem;
 }
 
 .carousel-item > img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-    height: 32rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  height: 32rem;
 }
 
 @media only screen and (max-width: 974px) {
-    
-    .carousel-caption {
-        text-align: center !important;
-    }
-    
+
+  .carousel-caption {
+    text-align: center !important;
+  }
+
 }
