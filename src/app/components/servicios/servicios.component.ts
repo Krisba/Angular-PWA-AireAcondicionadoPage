@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
+import { SERVICIOS } from 'src/app/data/servicios.data';
+
 
 @Component({
   selector: 'app-servicios',
@@ -10,6 +12,8 @@ import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 export class ServiciosComponent implements OnInit {
 
   faCheckCircle = faCheckCircle;
+
+  servicios = SERVICIOS;
 
   constructor() { }
 

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { BENEFICIOS } from 'src/app/data/beneficios';
+import { BENEFICIOS } from 'src/app/data/beneficios.data';
 
 
 @Component({
