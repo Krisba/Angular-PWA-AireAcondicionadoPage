@@ -14,6 +14,9 @@ import { NosotrosComponent } from './components/nosotros/nosotros.component';
 import { ServiciosComponent } from './components/servicios/servicios.component';
 import { FooterComponent } from './components/footer/footer.component';
 
+import { NgwWowModule } from 'ngx-wow';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +32,8 @@ import { FooterComponent } from './components/footer/footer.component';
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
-    FormsModule
+    FormsModule,
+    NgwWowModule
   ],
   providers: [],
   bootstrap: [AppComponent]
