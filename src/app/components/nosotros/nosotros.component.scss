@@ -98,19 +98,23 @@ input[type=number]::-webkit-outer-spin-button {
   
 }
 
+@media only screen and (max-width: 974px) {
+
+  .bloqueArticulo {
+    width: 80%;
+  }
+  
+}
+
 
 @media only screen and (max-width: 750px) {
+
+  .acerca {
+    padding: 3rem;
+  }
   
   .container {
     flex-direction: column;
   }
-  
-  .bloqueArticulo {
-    width: 100%;
-  }
-  
-  .formulario {
-    width: 100%;
-  }
-  
+    
 }
